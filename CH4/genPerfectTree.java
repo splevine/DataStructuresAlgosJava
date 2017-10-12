@@ -11,3 +11,7 @@ private BSTNode genPerfectTree (int low, int high){
     BSTNode right = genPerfectTree (root + 1, high);
     return new BSTNode(root, left, right);
 }
+
+//The running time of this is O(2h) = O(n), 
+//where n is the number of nodes in the generated tree. 
+//Every node is visited just one time when it is generated.
