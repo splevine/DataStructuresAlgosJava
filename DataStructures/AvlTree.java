@@ -1,5 +1,3 @@
-    package DataStructures;
-
     // BinarySearchTree class
     //
     // CONSTRUCTION: with no initializer
