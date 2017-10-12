@@ -19,11 +19,8 @@
      */
     public class AvlTree
     {
-        /**
-         * Construct the tree.
-         */
-        public AvlTree( )
-        {
+        // Construct the tree.
+        public AvlTree( ){
             root = null;
         }
 
@@ -36,12 +33,10 @@
             root = insert( x, root );
         }
 
-        /**
-         * Remove from the tree. Nothing is done if x is not found.
+        /** Remove from the tree. Nothing is done if x is not found.
          * @param x the item to remove.
          */
-        public void remove( Comparable x )
-        {
+        public void remove( Comparable x ) {
             System.out.println( "Sorry, remove unimplemented" );
         }
 
@@ -73,11 +68,8 @@
             return elementAt( find( x, root ) );
         }
 
-        /**
-         * Make the tree logically empty.
-         */
-        public void makeEmpty( )
-        {
+        // Make the tree logically empty.
+        public void makeEmpty( ) {
             root = null;
         }
 
